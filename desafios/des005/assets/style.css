@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(78, 78, 218);
+    color: white;
+}
+header {
+    text-align: center;
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.76);
+    font-size: 20px;
+    color: black;
+}
+#res {
+    width: 180px;
+    overflow-y: scroll;
+    font-size: 16px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+}
+#res p {
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+}

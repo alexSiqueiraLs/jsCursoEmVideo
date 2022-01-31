@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando valores</title>
+    <style>
+        body {
+            font: normal 15px arial;
+            padding: 10px;
+        }
+        input {
+            font: normal 14px arial;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando valores</h1>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="somar" onclick="somar()"> <!--o evento onclick esta invocando a função-->
+    <div class="res">resultado</div>
+
+    <script>
+        function somar() {
+            var tn1 = document.querySelector('#txtn1')
+            var tn2 = document.querySelector('#txtn2')
+            var res = document.querySelector('.res') 
+            var n1 = Number(tn1.value) //pegando o valor dentro de tn1
+            var n2 = Number(tn2.value)
+            var s = n1+n2 //somando os valores
+            res.innerHTML = `o resultado da soma é ${s}`
+        }
+    </script>
+</body>
+</html>

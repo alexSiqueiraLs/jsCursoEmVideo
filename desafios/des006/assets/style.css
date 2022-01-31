@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(78, 78, 218);
+    color: white;
+}
+header {
+    text-align: center;
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.76);
+    font-size: 20px;
+    color: black;
+}
+#content-numeros select {
+    width: 185px;
+    overflow-y: scroll;
+    font-size: 14px;
+    height: 210px;
+    margin: 10px;
+}
+#text {
+    line-height: 30px;
+    padding-top: 15px;
+}
+
+footer p {
+    text-align: center;
+}

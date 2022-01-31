@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(75, 75, 221);
+    color: white;
+}
+header {
+    text-align: center;
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.76);
+    font-size: 20px;
+    color: black;
+}
+#foto {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+button {
+    font-size: 15px;
+    background-color: rgba(93, 93, 238, 0.863);
+    color: white;
+    border-radius: 8px;
+    border-color: rgba(255, 255, 255, 0.336);
+    width: 90px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+footer p {
+    text-align: center;
+}

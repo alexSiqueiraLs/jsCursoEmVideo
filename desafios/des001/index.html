@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>desafio pais</title>
+</head>
+<body>
+	<h1>voce é brasileiro?</h1>
+    <input type="text" name="pais" class="pais" placeholder="sigla do pais">
+    <input type="button" name="enviar" value="verificar" onclick="nacionalidade()">
+    <div class="res"></div>
+
+    <script type="text/javascript">
+    	var pais = document.querySelector('.pais')
+
+    	function nacionalidade() {
+    		var res = document.querySelector('.res')
+    		var Txt = pais.value
+    		if (Txt == 'br') {
+    			res.innerHTML = '<p>voce é brasileiro</p>'
+    		} else {
+    			res.innerHTML = '<p>voce é estrangeiro</p>'
+    		}
+    	}
+    </script>
+</body>
+</html>

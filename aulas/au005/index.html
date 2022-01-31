@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: rgba(99, 99, 163, 0.966);
+            color:  #fff;
+        }
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com dom</h1>
+    <p>aqui vai o resultado</p>
+    <p>aprendendo a usar <strong>DOM</strong> em javascript</p>
+    <div id="msg">clique aqui</div>
+
+<script>
+    var p1 = document.getElementsByTagName('p')[1] //selecionando por tag
+    var d = document.getElementById('msg') //selecionando por id ou document.querySelector('#msg') é mais recomendavel
+    var corpo = document.body
+    document.write('esta escrito assim: ' + p1.innerHTML) //write adiciona ao html]
+    corpo.style.background = 'black' 
+    p1.style.color =' blue' //é possivel manipular o style dos elementos
+    /*document.write(p1.innerHTML)*/
+    d.style.color = 'green'
+    d.innerHTML= 'modificado via dom'
+</script>
+</body>
+</html>
